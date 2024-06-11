@@ -23,8 +23,8 @@ export default function TimerChallenge({ title, targetTime }) {
     clearInterval(timer.current);
   }
 
-  function handleReset(){
-    setTimeRemaining(targetTime*1000);
+  function handleReset() {
+    setTimeRemaining(targetTime * 1000);
   }
 
   return (
